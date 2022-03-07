@@ -1,5 +1,6 @@
 body{
     background: rgba(143, 136, 136, 0.548);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .photo {
@@ -9,6 +10,16 @@ body{
 
 #title, .subtitle, .post-title {
     color:#505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #505050;
 }
 
 .post-title {
